@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Add Values for the Integration</title>
+</head>
+
+<body>
+
+<form action = "addnum/" method = "post">
+{% csrf_token %}
+<br><br>
+
+Number One:<br>
+
+<input name = "one">
+<br><br>
+
+Number Two:<br>
+
+<input name = "two">
+<br><br>
+
+<input type = "submit" value = "Calculate">
+
+</form>
+
+</body>
+
+</html>
